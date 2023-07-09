@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register/Login Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+
+   <!-- register/login -->
+  <div id="register-login-container">
+    <h2>Register / Login</h2>
+    <div id="tabs">
+      <button id="registerTab" class="active">Register</button>
+      <button id="loginTab">Login</button>
+    </div>
+    <div id="registerForm">
+      <form id="register-form">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+    <div id="loginForm" style="display: none;">
+      <form id="login-form">
+        <div class="form-group">
+          <label for="loginEmail">Email:</label>
+          <input type="email" id="loginEmail" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="loginPassword">Password:</label>
+          <input type="password" id="loginPassword" name="password" required>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+    <p id="error-message"></p>
+  </div>
+
+  <footer id="footer">
+    <a class="footer-link" href="#">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="#">Website</a><br>
+  <i class="fa fa-twitter fa-3px footer-logo" aria-hidden="true"></i>
+  <i class="fa fa-facebook-official fa-3px footer-logo" aria-hidden="true"></i>
+  <i class="fa fa-instagram fa-3px footer-logo" aria-hidden="true"></i>
+  <i class="fa fa-commenting-o fa-3px footer-logo" aria-hidden="true"></i>
+      <p class="copy-right">&copy; 2023 Hiring Website. All rights reserved.</p>
+
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>

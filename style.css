@@ -1,0 +1,288 @@
+.info{
+  background-color: #423144;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+#title{
+text-align: center;
+}
+
+#title .top-container{
+  background-color:#343456;
+  padding: 5% 10%;
+
+}
+.trade-image{
+  width: 95%;
+padding: 8% 10%;
+}
+.main-heading{
+  padding: 6% 5%;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffcb8e;
+}
+.main-para{
+  font-family: 'Montserrat', sans-serif;
+ color: #99ffe6;
+ padding: 8px;
+ text-align: left;
+ font-size: 1.5rem;
+
+}
+@media (max-width: 1100px) {
+.trade-image{
+
+  transform: rotate(0);
+  position: static; 
+}
+/* title section */
+
+#title{
+text-align: center;
+}
+}
+.big-heading{
+  color: aqua;
+  text-align: left;
+  padding: 8px;
+  font-size: 2.5rem;
+}
+
+/* benifits */
+.middle-section{
+  background-color: #ee363f;
+  color: white;
+  padding: 50px;
+}
+.mid-head{
+  text-align: center;
+  padding: 1%;
+}
+
+/* advantages of benifits section */
+
+#streaming-section{
+  background-color: hsl(0, 5%, 52%);
+  padding: 20px 80px;
+}
+.stream-head{
+  color: #fff;
+  text-align:center;
+  padding: 4% 10%;
+}
+.stream-column{
+  padding: 1% 15%;
+}
+.stream-logo{
+  color: #ef8172;
+  padding: 6px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 80px 120px;
+  text-align: center;
+  color: #ee363f;
+  background-color: #ececf3;
+}
+.pricing-column {
+  padding: 20px;
+}
+
+
+
+/* footer section */
+
+
+.copy-right{
+  padding-top:10px;
+}
+.footer-logo{
+  padding: 0 8px;
+}
+
+/* copy-Right section */
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-link{
+  color: #AA44CC;
+  text-decoration: none;
+  padding: 10px;
+}
+.footer-link:hover{
+  color: grey;
+  border-radius: 20px;
+}
+
+
+/* final section */
+
+#final-section{
+  padding: 3% 13%;
+}
+.final-head{
+  text-align: center;
+  font-size: 2rem;
+  padding: 3%;
+}
+
+.final-column-right{
+  background-color: #322f3d;
+text-align: center;
+
+color: #fff;}
+
+.final-column-left{
+  background-color: #b2ebf2;
+  padding: 2%;
+}
+
+/* register/login css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#register-login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+#tabs {
+  margin-bottom: 20px;
+}
+
+button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #555;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#error-message {
+  text-align: center;
+  color: red;
+}
+/* pricing section */
+
+#pricing {
+  padding: 120px;
+  text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.pricing-column {
+  padding: 20px;
+}
+/* search */
+
+#search-form {
+  display: flex;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* latest job and top candidate */
+
+#hero {
+  background-color: #f1f1f1;
+  padding: 50px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+.job-card, .candidate-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
